@@ -1,0 +1,30 @@
+a.out < random10.txt
+comparisons		exchanges		time
+58				10				.000181
+
+18 79 46 75 99 91 98 53 10 23 
+18 79 46 10 23 91 98 53 75 99 
+18 10 23 79 46 53 75 91 98 99 
+
+10 18 23 46 53 75 79 91 98 99 
+10 18 23 46 53 75 79 91 98 99 
+10 18 23 46 53 75 79 91 98 99 
+10 18 23 46 53 75 79 91 98 99 
+10 18 23 46 53 75 79 91 98 99 
+10 18 23 46 53 75 79 91 98 99 
+10 18 23 46 53 75 79 91 98 99 
+10 18 23 46 53 75 79 91 98 99 
+10 18 23 46 53 75 79 91 98 99
+
+
+a.out < inorder100.txt							a.out < random100.txt							a.out < reverse100.txt
+comparisons		exchanges		time(secs)		comparisons		exchanges		time(secs)		comparisons		exchanges		time(secs)
+5288			0				.001624			5288			780				.001618			5288			982				.002081
+
+a.out < inorder1000.txt							a.out < random1000.txt							a.out < reverse1000.txt
+comparisons		exchanges		time(secs)		comparisons		exchanges		time(secs)		comparisons		exchanges		time(secs)
+504951			0				.0206864		504951			67703			.0356684		504951			111552			.0314988
+
+a.out < inorder10000.txt						a.out < random10000.txt							a.out < reverse10000.txt
+comparisons		exchanges		time(secs)		comparisons		exchanges		time(secs)		comparisons		exchanges		time(secs)
+50070234		0				.3047974		50070234		7000155			.905141500		50070234		12642628		.320102900
